@@ -1,0 +1,283 @@
+I, [2014-07-04T15:45:49.550276 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 15:45:49 +0530
+I, [2014-07-04T15:45:49.560550 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T15:45:49.592231 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T15:45:49.593339 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (3.4ms)
+I, [2014-07-04T15:45:49.593630 #14026]  INFO -- : Completed 500 Internal Server Error in 33ms
+F, [2014-07-04T15:45:49.596402 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T15:45:49.598009 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T15:45:49.599915 #14026]  INFO -- : Completed 500 Internal Server Error in 2ms
+I, [2014-07-04T16:04:34.228237 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:04:34 +0530
+I, [2014-07-04T16:04:34.229302 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:04:34.231504 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:04:34.232681 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (2.1ms)
+I, [2014-07-04T16:04:34.233018 #14026]  INFO -- : Completed 500 Internal Server Error in 4ms
+F, [2014-07-04T16:04:34.236551 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:04:34.237452 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:04:34.238366 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:05:27.307562 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:05:27 +0530
+I, [2014-07-04T16:05:27.309776 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:05:27.314002 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:05:27.316723 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (4.5ms)
+I, [2014-07-04T16:05:27.317234 #14026]  INFO -- : Completed 500 Internal Server Error in 7ms
+F, [2014-07-04T16:05:27.320245 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:05:27.322112 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:05:27.322996 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:05:28.130135 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:05:28 +0530
+I, [2014-07-04T16:05:28.136038 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:05:28.139183 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:05:28.140137 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (1.6ms)
+I, [2014-07-04T16:05:28.140407 #14026]  INFO -- : Completed 500 Internal Server Error in 4ms
+F, [2014-07-04T16:05:28.143154 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:05:28.143970 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:05:28.144776 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:05:35.618221 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:05:35 +0530
+I, [2014-07-04T16:05:35.619734 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:05:35.622058 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:05:35.623586 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (2.6ms)
+I, [2014-07-04T16:05:35.623797 #14026]  INFO -- : Completed 500 Internal Server Error in 4ms
+F, [2014-07-04T16:05:35.627158 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:05:35.628029 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:05:35.629072 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:06:42.907419 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:06:42 +0530
+I, [2014-07-04T16:06:42.908418 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:06:42.910107 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:06:42.911051 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (1.5ms)
+I, [2014-07-04T16:06:42.911247 #14026]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-07-04T16:06:42.915011 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:06:42.916201 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:06:42.917049 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:06:43.687481 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:06:43 +0530
+I, [2014-07-04T16:06:43.688508 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:06:43.690268 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:06:43.691192 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (1.5ms)
+I, [2014-07-04T16:06:43.691618 #14026]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-07-04T16:06:43.695143 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:06:43.696149 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:06:43.697055 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:06:44.016992 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:06:44 +0530
+I, [2014-07-04T16:06:44.019156 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:06:44.021520 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:06:44.023041 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (2.6ms)
+I, [2014-07-04T16:06:44.023257 #14026]  INFO -- : Completed 500 Internal Server Error in 4ms
+F, [2014-07-04T16:06:44.026274 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:06:44.027311 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:06:44.028153 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:06:44.223916 #14026]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-07-04 16:06:44 +0530
+I, [2014-07-04T16:06:44.226129 #14026]  INFO -- : Processing by EmployeesController#index as HTML
+E, [2014-07-04T16:06:44.230676 #14026] ERROR -- : SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"
+I, [2014-07-04T16:06:44.232880 #14026]  INFO -- :   Rendered employees/index.html.erb within layouts/application (3.5ms)
+I, [2014-07-04T16:06:44.233431 #14026]  INFO -- : Completed 500 Internal Server Error in 7ms
+F, [2014-07-04T16:06:44.237438 #14026] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: employees: SELECT "employees".* FROM "employees"):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @employees.each do |employee| %>
+    14:       <tr>
+    15:         <td><%= employee.first_name %></td>
+    16:         <td><%= employee.last_name %></td>
+  app/views/employees/index.html.erb:13:in `_app_views_employees_index_html_erb___1003182745__615773188'
+
+
+I, [2014-07-04T16:06:44.238281 #14026]  INFO -- : Processing by ErrorsController#error_500 as HTML
+I, [2014-07-04T16:06:44.239132 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
+I, [2014-07-04T16:06:52.175467 #14026]  INFO -- : Started GET "/asad" for 127.0.0.1 at 2014-07-04 16:06:52 +0530
+F, [2014-07-04T16:06:52.179377 #14026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/asad"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-07-04T16:06:52.180500 #14026]  INFO -- : Processing by ErrorsController#error_404 as HTML
+I, [2014-07-04T16:06:52.186710 #14026]  INFO -- : Completed 500 Internal Server Error in 6ms
+I, [2014-07-04T16:07:27.093730 #14026]  INFO -- : Started GET "/asad" for 127.0.0.1 at 2014-07-04 16:07:27 +0530
+F, [2014-07-04T16:07:27.097378 #14026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/asad"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-07-04T16:07:27.099124 #14026]  INFO -- : Processing by ErrorsController#error_404 as HTML
+I, [2014-07-04T16:07:27.101671 #14026]  INFO -- : Completed 500 Internal Server Error in 2ms
+I, [2014-07-04T16:07:27.560571 #14026]  INFO -- : Started GET "/asad" for 127.0.0.1 at 2014-07-04 16:07:27 +0530
+F, [2014-07-04T16:07:27.564167 #14026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/asad"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-07-04T16:07:27.566120 #14026]  INFO -- : Processing by ErrorsController#error_404 as HTML
+I, [2014-07-04T16:07:27.567942 #14026]  INFO -- : Completed 500 Internal Server Error in 2ms
+I, [2014-07-04T16:08:35.980911 #14026]  INFO -- : Started GET "/asad" for 127.0.0.1 at 2014-07-04 16:08:35 +0530
+F, [2014-07-04T16:08:35.982276 #14026] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/asad"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/laptop/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-07-04T16:08:35.983236 #14026]  INFO -- : Processing by ErrorsController#error_404 as HTML
+I, [2014-07-04T16:08:35.984610 #14026]  INFO -- : Completed 500 Internal Server Error in 1ms
